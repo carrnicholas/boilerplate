@@ -1,5 +1,11 @@
 /* Right now this stylesheet is empty */
 
+/* ---------- FONTS ---------- */
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+
 /* ---------- BREAKPOINTS ----------
 
 The industry standards are...
@@ -7,3 +13,11 @@ The industry standards are...
 Tablets: 768px
 Desktop 1200px
 (use min-width for both breakpoint sets)
+
+========== MEDIA QUERIES ==========
+
+TABLETS: @media (min-width: 768px) { add code here }
+
+DESKTOP: @media (min-width: 1200px) { add code here }
+
+---------- */
