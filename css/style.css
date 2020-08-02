@@ -1,11 +1,36 @@
-/* Right now this stylesheet is empty */
+/* Boilerplate CSS stylesheet */
 
-/* ---------- FONTS ---------- */
+html {
+  font-size: 16px /* base font size for all font sizes */
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* ---------- FONTS ----------
 font-family: 'Raleway', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Mulish', sans-serif;
+----- */
 
 /* ---------- BREAKPOINTS ----------
 
