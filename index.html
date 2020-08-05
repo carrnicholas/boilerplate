@@ -61,6 +61,32 @@ TABLETS: @media (min-width: 768px) { add code here }
 
 DESKTOP: @media (min-width: 1200px) { add code here }
 
+NOTE: Any CSS written outside of a media query will apply to all devices, and
+the industry standard is to code and design for mobile-first screens, so add
+media queries for tablets and desktops
+
+EXAMPLE PROVIDED BY SKILLCRUSH OF HOW MEDIA QUERIES WORK
+
+body {
+  color: white;
+  background-color: blue;
+}
+p {
+  font-weight: bold;
+}
+
+@media screen and (min-device-width: 768px) {
+  body {
+    backround-color: black;
+  }
+}
+
+@media screen and (min-device-width: 1200px) {
+  body {
+    backround-color: purple;
+  }
+}
+
 ========== BASIC STUFF ON GIT ==========
 
 To merge branches, switch TO the branch you want to merge everything into then
